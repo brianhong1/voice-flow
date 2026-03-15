@@ -1,4 +1,22 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist"
+  "buildCommand": "npm install --legacy-peer-deps && npm run build",
+  "outputDirectory": "dist",
+  "devCommand": "npm run dev",
+  "env": {
+    "NODE_ENV": "production"
+  }
 }
+```
+
+6. Scroll down and click **"Commit changes"**
+7. Add message: "fix: update vercel configuration for build"
+
+---
+
+## **Now Create the .npmrc File**
+
+1. Click **"Add file"** → **"Create new file"**
+2. Name it: `.npmrc`
+3. **Paste this:**
+```
+legacy-peer-deps=true
