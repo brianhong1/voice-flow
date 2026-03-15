@@ -1,13 +1,12 @@
 {
   "name": "voice-flow",
   "version": "1.0.0",
-  "description": "Voice to polished text app with cost tracking and error logging",
+  "description": "Voice to polished text app with cost tracking",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "type-check": "tsc --noEmit"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
